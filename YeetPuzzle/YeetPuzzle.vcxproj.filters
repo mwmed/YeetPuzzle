@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="base_d3d.cpp">
+      <Filter>yeet_framework\yeet_base</Filter>
+    </ClCompile>
+    <ClCompile Include="base_window.cpp">
+      <Filter>yeet_framework\yeet_base</Filter>
+    </ClCompile>
+    <ClCompile Include="c_puzzleobject.cpp">
+      <Filter>yeet_puzzle\game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_objectmanager.cpp">
+      <Filter>yeet_puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="yeet_rectangle.cpp">
+      <Filter>yeet_framework\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="c_puzzlecanvas.cpp">
+      <Filter>yeet_puzzle\game\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="imyeet.cpp">
+      <Filter>yeet_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="c_puzzleuimanager.cpp">
+      <Filter>yeet_puzzle\game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_gamemanager.cpp">
+      <Filter>yeet_puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="c_userinputmanager.cpp">
+      <Filter>yeet_puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_util.cpp">
+      <Filter>yeet_common</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_text.cpp">
+      <Filter>yeet_framework\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_timer.cpp">
+      <Filter>yeet_common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="yeet_framework">
+      <UniqueIdentifier>{a4dbcf89-c9e1-4c91-a9d3-74bd9a600f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_puzzle">
+      <UniqueIdentifier>{191133b6-c586-4f29-8c6a-0f4c4ab25eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_puzzle\objects">
+      <UniqueIdentifier>{b351b5d1-a198-4ae9-9cac-acfd952becb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_puzzle\game">
+      <UniqueIdentifier>{36cd72d0-5e52-4596-a59a-70b80c30c7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_common">
+      <UniqueIdentifier>{f3c5b7eb-20e0-4131-830a-157b20980b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_puzzle\game\canvas">
+      <UniqueIdentifier>{24416ab3-1b24-4f53-98ce-5c08bc559d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_framework\objects">
+      <UniqueIdentifier>{136378b8-2d7b-4d97-8755-375624a9a84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_framework\yeet_base">
+      <UniqueIdentifier>{cd9d9ca5-04d6-4a71-b7ff-fc1ab555d00a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base_window.h">
+      <Filter>yeet_framework\yeet_base</Filter>
+    </ClInclude>
+    <ClInclude Include="base_d3d.h">
+      <Filter>yeet_framework\yeet_base</Filter>
+    </ClInclude>
+    <ClInclude Include="imyeet.h">
+      <Filter>yeet_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="c_gamemanager.h">
+      <Filter>yeet_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="c_inputobject.h">
+      <Filter>yeet_puzzle\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_objectmanager.h">
+      <Filter>yeet_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="puzzleconstants.h">
+      <Filter>yeet_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="c_gameobject.h">
+      <Filter>yeet_puzzle\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_puzzleobject.h">
+      <Filter>yeet_puzzle\game</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_includes.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_math.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="c_puzzlecanvas.h">
+      <Filter>yeet_puzzle\game\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_rectangle.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_drawable.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="puzzle_globals.h">
+      <Filter>yeet_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="c_puzzleuimanager.h">
+      <Filter>yeet_puzzle\game</Filter>
+    </ClInclude>
+    <ClInclude Include="c_interactableobject.h">
+      <Filter>yeet_puzzle\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_userinputmanager.h">
+      <Filter>yeet_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_util.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_text.h">
+      <Filter>yeet_framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_timer.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
